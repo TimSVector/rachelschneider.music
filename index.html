@@ -5,10 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rachel Schneider – Soprano</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav ul');
+      nav.classList.toggle('open');
+    }
+  </script>
 </head>
 <body>
   <header class="hero">
     <nav class="nav">
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
@@ -21,7 +28,7 @@
       <h2>Soprano</h2>
     </div>
   </header>
-<body>
-  <img src="images/headshot.jpeg" alt="Headshot" />
-</body>
+  <body>
+    <img src="images/headshot.jpeg" alt="Headshot" />
+  </body>
 </html>
